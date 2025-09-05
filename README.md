@@ -53,6 +53,7 @@ insta_fake_project/
 
 ---
 
+
 ## ⚙️ Installation
 
 Clone this repo and create a virtual environment:
@@ -61,53 +62,9 @@ Clone this repo and create a virtual environment:
 git clone https://github.com/YourUsername/instagram-fake-detector.git
 cd instagram-fake-detector
 
-# Create venv (Windows)
+# Create virtual environment (Windows)
 python -m venv venv
 venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-
-▶️ Usage
-
-Run the Jupyter notebook for preprocessing & training:
-
-jupyter notebook notebooks/starter_instagram.ipynb
-
-
-Run the Streamlit app:
-
-streamlit run app.py
-
-
-Then open in browser: http://localhost:8501
-
-📊 Results
-
-Model Accuracy: ~92%
-
-ROC-AUC: 0.92
-
-SHAP values show that:
-
-nums_length_username and profile_pic are highly important indicators
-
-🖼️ Screenshots
-
-👉 Add screenshots of:
-
-Jupyter Notebook training output
-
-SHAP plot
-
-Streamlit app interface
-
-🏷️ Tech Stack
-
-Python, Pandas, NumPy
-
-Scikit-learn, XGBoost
-
-Matplotlib, Seaborn, SHAP
-
-Streamlit
